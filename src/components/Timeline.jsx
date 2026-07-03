@@ -62,6 +62,19 @@ function TimelineItem({ item, index }) {
                     </li>
                   ))}
                 </ul>
+                {item.image && (
+                  <figure className="mt-4">
+                    <img
+                      src={item.image}
+                      alt={item.imageCaption || item.role}
+                      className="rounded-xl border max-w-xs w-full"
+                      style={{ borderColor: color + '33' }}
+                    />
+                    {item.imageCaption && (
+                      <figcaption className="text-xs text-gray-500 mt-2">{item.imageCaption}</figcaption>
+                    )}
+                  </figure>
+                )}
               </div>
             </motion.div>
           )}

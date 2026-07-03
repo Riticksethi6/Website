@@ -47,16 +47,30 @@ function ProjectCard({ project, index }) {
           </div>
         </div>
 
-        {project.link && (
-          <a
-            href={project.link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-5 inline-flex items-center gap-2 text-sm font-medium transition-colors duration-200"
-            style={{ color: project.color }}
-          >
-            {project.linkLabel}
-          </a>
+        {(project.link || project.github) && (
+          <div className="mt-5 flex flex-wrap items-center gap-5">
+            {project.link && (
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-sm font-medium transition-colors duration-200"
+                style={{ color: project.color }}
+              >
+                {project.linkLabel}
+              </a>
+            )}
+            {project.github && (
+              <a
+                href={project.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-sm font-medium text-gray-400 hover:text-white transition-colors duration-200"
+              >
+                View Source →
+              </a>
+            )}
+          </div>
         )}
       </div>
     </motion.div>

@@ -1,12 +1,12 @@
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
+import profilePhoto from '../assets/profile-photo.jpeg'
 
 const roles = [
-  'AGV / AMR Systems Engineer',
-  'Warehouse Automation Specialist',
-  'WMS Integration Designer',
-  'Pre-Sales Solution Architect',
-  'Robotics & DevOps Engineer',
+  'Automation & Robotics Engineer',
+  'AGV / AMR Systems Integration',
+  'Project Engineer – Automation',
+  'Python · FastAPI Developer',
 ]
 
 function TypewriterText({ texts }) {
@@ -84,6 +84,11 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
+          <img
+            src={profilePhoto}
+            alt="Ritick Sethi"
+            className="w-28 h-28 md:w-32 md:h-32 rounded-full object-cover mx-auto mb-6 border-2 border-[#00d4ff] glow-cyan"
+          />
           <p className="text-[#00d4ff] text-sm font-medium tracking-widest uppercase mb-4">
             Cologne, Germany · Open to DACH & Europe
           </p>
@@ -143,7 +148,7 @@ export default function Hero() {
             { value: '40%', label: 'Faster proposals' },
             { value: '8h/wk', label: 'DevOps time saved' },
             { value: '1.1', label: 'Thesis grade' },
-            { value: '5+', label: 'AGV projects' },
+            { value: '3', label: 'AGV projects' },
           ].map(stat => (
             <div key={stat.label} className="text-center">
               <div className="text-2xl font-bold text-[#00d4ff]">{stat.value}</div>

@@ -3,25 +3,18 @@ import { motion, AnimatePresence } from 'framer-motion'
 
 const recs = [
   {
-    quote: "Ritick has a rare ability to bridge the gap between customer requirements and technical execution. His pre-sales tool transformed how our team approaches AGV scoping — clear, fast, and professional.",
-    name: "Manager, EP Equipment GmbH",
-    role: "Automation Division",
-    initials: "EP",
+    quote: "Ritick takes the “difficult” out of 100% logistic automation projects — swift and smooth, tackling all questions from every stakeholder in the project. Clear focus thanks to strong product and project knowledge, technical skills, and good communication. As project manager he gave me a superb pre-sales tool that brings structure to the table and speeds up project development. Automation? Think Ritick.",
+    name: "Klaas Theunynck",
+    role: "Account Manager, Cobotix — client",
+    initials: "KT",
     color: "#00d4ff",
   },
   {
-    quote: "What stood out most was Ritick's ownership. He didn't just implement the pipelines — he proactively identified bottlenecks and delivered solutions that the whole team now relies on daily.",
-    name: "Supervisor, BMW Group",
-    role: "DevOps Engineering",
-    initials: "BM",
+    quote: "I had the pleasure of working with Ritick during the implementation of the EP Equipment XPL project. He was consistently professional, supportive, and easy to work with — clear instructions, effective communication, everything organized and on track. His friendly, approachable attitude made collaboration smooth and enjoyable. I'd gladly recommend him to anyone looking for a reliable, knowledgeable project partner.",
+    name: "Filip Szabo",
+    role: "Full-Stack Web & App Developer — client",
+    initials: "FS",
     color: "#3b82f6",
-  },
-  {
-    quote: "Ritick quickly grasped complex robotics concepts and contributed meaningfully to our simulation environment. His ROS2 work was solid, reliable, and well-documented.",
-    name: "Research Lead, FZI Research Center",
-    role: "Machine Learning & Robotics",
-    initials: "FZ",
-    color: "#10b981",
   },
 ]
 
@@ -46,7 +39,7 @@ export default function Recommendations() {
         >
           <p className="text-[#00d4ff] text-sm font-medium tracking-widest uppercase mb-3">What Others Say</p>
           <h2 className="text-4xl font-bold text-white">Recommendations</h2>
-          <p className="text-gray-500 text-sm mt-3">Representative testimonials — real recommendations available on LinkedIn.</p>
+          <p className="text-gray-500 text-sm mt-3">Real recommendations from LinkedIn.</p>
         </motion.div>
 
         <div className="relative min-h-[240px] flex items-center">

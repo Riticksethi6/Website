@@ -27,7 +27,7 @@ export const skillsData = [
     domain: 'Research & Simulation',
     icon: '🔬',
     color: '#ec4899',
-    skills: ['Digital Twin', 'Gazebo', 'Unity', 'Sensor Fusion', 'ML Integration', 'V2G Simulation', 'Embedded Systems'],
+    skills: ['Digital Twin', 'MuJoCo', 'Gazebo', 'Sensor Fusion', 'ML Integration', 'V2G Simulation', 'Embedded Systems'],
   },
   {
     domain: 'Languages',

@@ -1,3 +1,5 @@
+import thesisDefensePhoto from '../assets/thesis-defense.jpeg'
+
 export const timelineData = [
   {
     id: 1,
@@ -110,6 +112,8 @@ export const timelineData = [
       'System Integration: 1.0',
       'Focus: sensor fusion, embedded systems, robotics integration',
     ],
+    image: thesisDefensePhoto,
+    imageCaption: 'Receiving the Master\'s degree certificate at Hochschule Karlsruhe, Oct 2025.',
   },
   {
     id: 8,
