@@ -16,14 +16,6 @@ export default function References() {
           <p className="text-gray-500 text-sm mt-3">
             Translated excerpts from formal reference letters (Arbeitszeugnisse). Full letters available on request.
           </p>
-          <a
-            href={`${import.meta.env.BASE_URL}certificates.pdf`}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block mt-4 text-sm text-[#00d4ff] hover:underline"
-          >
-            Download certificates & course completions (PDF) →
-          </a>
         </motion.div>
 
         <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-6">

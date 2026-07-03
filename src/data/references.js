@@ -1,5 +1,13 @@
 export const referencesData = [
   {
+    quote: "Mr. Sethi is active across all project tasks in our Automation team, with a focus on project management and customer support — from pre-sales and customizing to project coordination, on-site implementation support, and cross-functional coordination with fleet-management and WMS teams.",
+    name: "Arjan Vanzanten & Johanna Dinges",
+    role: "VP Automation & HR Manager",
+    company: "EP Equipment Germany GmbH",
+    period: "Project Engineer – Automation, Dec 2025–Present",
+    color: "#00d4ff",
+  },
+  {
     quote: "Mr. Sethi is able to grasp difficult situations immediately and find excellent solutions quickly. He shows constant high initiative and identifies himself in an exemplary way with his tasks and our company. Even under situations with the greatest workload, he proves permanently exceptionally resilient. He completes all tasks completely independently, extremely carefully, and with foresight — acting calmly, deliberately, goal-oriented, and to the highest degree precisely.",
     name: "Dr.-Ing. Irfan Khan & Margret Winkler",
     role: "Projektingenieur & HR Administration",
@@ -30,13 +38,5 @@ export const referencesData = [
     company: "FZI Forschungszentrum Informatik",
     period: "Student Research Assistant – Robotics, Feb–Apr 2024",
     color: "#10b981",
-  },
-  {
-    quote: "Mr. Sethi is active across all project tasks in our Automation team, with a focus on project management and customer support — from pre-sales and customizing to project coordination, on-site implementation support, and cross-functional coordination with fleet-management and WMS teams.",
-    name: "Arjan Vanzanten & Johanna Dinges",
-    role: "VP Automation & HR Manager",
-    company: "EP Equipment Germany GmbH",
-    period: "Project Engineer – Automation, Dec 2025–Present",
-    color: "#00d4ff",
   },
 ]

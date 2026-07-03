@@ -6,6 +6,7 @@ import Projects from './components/Projects'
 import Skills from './components/Skills'
 import Recommendations from './components/Recommendations'
 import References from './components/References'
+import Resources from './components/Resources'
 import Contact from './components/Contact'
 
 export default function App() {
@@ -19,6 +20,7 @@ export default function App() {
       <Skills />
       <Recommendations />
       <References />
+      <Resources />
       <Contact />
     </div>
   )
