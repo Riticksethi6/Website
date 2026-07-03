@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { timelineData } from '../data/timeline'
 
 function TimelineItem({ item, index }) {
-  const [open, setOpen] = useState(index === 0)
+  const [open, setOpen] = useState(index === 0 || !!item.image)
   const color = item.color
 
   return (

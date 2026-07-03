@@ -5,6 +5,7 @@ import Timeline from './components/Timeline'
 import Projects from './components/Projects'
 import Skills from './components/Skills'
 import Recommendations from './components/Recommendations'
+import References from './components/References'
 import Contact from './components/Contact'
 
 export default function App() {
@@ -17,6 +18,7 @@ export default function App() {
       <Projects />
       <Skills />
       <Recommendations />
+      <References />
       <Contact />
     </div>
   )

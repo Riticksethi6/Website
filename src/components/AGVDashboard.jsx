@@ -10,7 +10,7 @@ const showcase = [
     live: true,
     description:
       'The tool I built to fix EP Equipment\'s scoping bottleneck — customer requirements go in, structured AGV/AMR sizing, material flow design, and quotations come out. Multilingual, in daily use, already behind many live customer proposals.',
-    primary: { label: 'Open Live Demo →', href: 'https://ep-intelligent-survey-tool.streamlit.app' },
+    primary: { label: 'Open Live Demo →', href: 'https://presales-tool.streamlit.app' },
     secondary: { label: 'View Source', href: 'https://github.com/Riticksethi6/warehouse-automation-presales-tool' },
   },
   {
@@ -19,11 +19,11 @@ const showcase = [
     tag: 'FastAPI · JavaScript · Chart.js',
     icon: '📊',
     color: '#7c3aed',
-    live: false,
+    live: true,
     description:
-      'An open-source reference build of the kind of live monitoring dashboard I design for customer sites — storage grid, inventory KPIs, material distribution, and battery monitoring, with a FastAPI backend and a zero-framework frontend.',
-    primary: { label: 'View Source on GitHub →', href: 'https://github.com/Riticksethi6/Warehouse-Dashboard' },
-    secondary: null,
+      'A reference build of the kind of live monitoring dashboard I design for customer sites — storage grid, inventory KPIs, material distribution, and battery monitoring. Runs a client-side mock of the FastAPI backend for this demo; the real backend is in the repo.',
+    primary: { label: 'Open Live Demo →', href: 'https://riticksethi6.github.io/Warehouse-Dashboard/' },
+    secondary: { label: 'View Source', href: 'https://github.com/Riticksethi6/Warehouse-Dashboard' },
   },
 ]
 

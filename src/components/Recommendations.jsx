@@ -1,22 +1,6 @@
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-
-const recs = [
-  {
-    quote: "Ritick takes the “difficult” out of 100% logistic automation projects — swift and smooth, tackling all questions from every stakeholder in the project. Clear focus thanks to strong product and project knowledge, technical skills, and good communication. As project manager he gave me a superb pre-sales tool that brings structure to the table and speeds up project development. Automation? Think Ritick.",
-    name: "Klaas Theunynck",
-    role: "Account Manager, Cobotix — client",
-    initials: "KT",
-    color: "#00d4ff",
-  },
-  {
-    quote: "I had the pleasure of working with Ritick during the implementation of the EP Equipment XPL project. He was consistently professional, supportive, and easy to work with — clear instructions, effective communication, everything organized and on track. His friendly, approachable attitude made collaboration smooth and enjoyable. I'd gladly recommend him to anyone looking for a reliable, knowledgeable project partner.",
-    name: "Filip Szabo",
-    role: "Full-Stack Web & App Developer — client",
-    initials: "FS",
-    color: "#3b82f6",
-  },
-]
+import { recommendationsData as recs } from '../data/recommendations'
 
 export default function Recommendations() {
   const [active, setActive] = useState(0)

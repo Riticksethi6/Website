@@ -1,0 +1,42 @@
+export const referencesData = [
+  {
+    quote: "Mr. Sethi is able to grasp difficult situations immediately and find excellent solutions quickly. He shows constant high initiative and identifies himself in an exemplary way with his tasks and our company. Even under situations with the greatest workload, he proves permanently exceptionally resilient. He completes all tasks completely independently, extremely carefully, and with foresight — acting calmly, deliberately, goal-oriented, and to the highest degree precisely.",
+    name: "Dr.-Ing. Irfan Khan & Margret Winkler",
+    role: "Projektingenieur & HR Administration",
+    company: "FEV Europe GmbH",
+    period: "Master Thesis – Vehicle-to-Grid Simulation, Apr–Oct 2025",
+    color: "#7c3aed",
+  },
+  {
+    quote: "Mr. Sethi always worked reliably, independently, and conscientiously. He identified with his tasks and worked with great commitment and initiative. Work results were consistently of good quality, even under changing requirements and in difficult situations. His work pace consistently exceeded our expectations.",
+    name: "Andreas Will & Uwe Segelbacher",
+    role: "Leiter & IT Product Owner / IT Subproduct Owner",
+    company: "BMW Group",
+    period: "Intern – Digital Platform Engineering (DevOps), Oct 2024–Apr 2025",
+    color: "#3b82f6",
+  },
+  {
+    quote: "Mr. Sethi delivered a consistently well above-average quality of work. His work volume and pace were, at all times, considerably above our expectations and requirements. He was always extremely reliable, worked independently and in a structured way, and was highly valued by supervisors and colleagues alike.",
+    name: "Tino Krieg",
+    role: "Personalabteilung (HR)",
+    company: "Robert Bosch GmbH",
+    period: "Working Student – IT Support, May–Oct 2024",
+    color: "#f59e0b",
+  },
+  {
+    quote: "Mr. Sethi has well-founded technical knowledge, which he applied successfully in practice. Through his pronounced conceptual, creative, and logical thinking, he found good solutions to every problem that arose. He showed high initiative throughout and was always extremely reliable — enjoying our full trust at all times.",
+    name: "Georg Heppner",
+    role: "Abteilungsleitung",
+    company: "FZI Forschungszentrum Informatik",
+    period: "Student Research Assistant – Robotics, Feb–Apr 2024",
+    color: "#10b981",
+  },
+  {
+    quote: "Mr. Sethi is active across all project tasks in our Automation team, with a focus on project management and customer support — from pre-sales and customizing to project coordination, on-site implementation support, and cross-functional coordination with fleet-management and WMS teams.",
+    name: "Arjan Vanzanten & Johanna Dinges",
+    role: "VP Automation & HR Manager",
+    company: "EP Equipment Germany GmbH",
+    period: "Project Engineer – Automation, Dec 2025–Present",
+    color: "#00d4ff",
+  },
+]

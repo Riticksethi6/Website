@@ -1,3 +1,10 @@
 node_modules
 dist
 .DS_Store
+
+# Personal documents with sensitive info (DOB/address/IBAN) - never commit
+src/assets/Degree.pdf
+src/assets/Experience_Publication-.pdf
+src/assets/Automation_Sethi_UQ V2.1.docx.pdf
+src/assets/Ritick_Sethi_Resume_.pdf
+src/assets/Courses_Awards_extras-.pdf
