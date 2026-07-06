@@ -1,5 +1,8 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import TrustedBy from './components/TrustedBy'
+import Stats from './components/Stats'
+import GroundTruth from './components/GroundTruth'
 import AGVDashboard from './components/AGVDashboard'
 import Timeline from './components/Timeline'
 import Projects from './components/Projects'
@@ -11,13 +14,16 @@ import Contact from './components/Contact'
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-[#0f1117] font-sans">
+    <div className="min-h-screen bg-white font-sans">
       <Navbar />
       <Hero />
+      <TrustedBy />
+      <Stats />
+      <GroundTruth />
       <AGVDashboard />
       <Timeline />
-      <Projects />
       <Skills />
+      <Projects />
       <Recommendations />
       <References />
       <Resources />

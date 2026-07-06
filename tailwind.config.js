@@ -3,12 +3,16 @@ export default {
   theme: {
     extend: {
       colors: {
-        bg: '#0f1117',
-        card: '#1a1f2e',
-        cyan: { DEFAULT: '#00d4ff', dim: '#0099bb' },
-        purple: { DEFAULT: '#7c3aed' },
+        ink: '#0a0a0a',
+        paper: '#ffffff',
+        line: '#e5e5e0',
+        accent: '#2f5cff',
       },
-      fontFamily: { sans: ['Inter', 'sans-serif'] },
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+        serif: ['"Instrument Serif"', 'Georgia', 'serif'],
+        mono: ['"JetBrains Mono"', 'monospace'],
+      },
     },
   },
   plugins: [],
