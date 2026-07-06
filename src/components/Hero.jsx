@@ -75,7 +75,7 @@ export default function Hero() {
           transition={{ duration: 0.7, delay: 0.1 }}
           className="heading-editorial heading-editorial-dark text-white text-5xl md:text-7xl mb-2"
         >
-          I design the systems.
+          Give me the requirement.
         </motion.h1>
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
@@ -83,7 +83,7 @@ export default function Hero() {
           transition={{ duration: 0.7, delay: 0.18 }}
           className="heading-editorial heading-editorial-dark text-5xl md:text-7xl mb-8"
         >
-          <em>then build what ships them.</em>
+          <em>I'll learn it, ship it, automate it.</em>
         </motion.h1>
 
         <motion.p
@@ -92,9 +92,9 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.28 }}
           className="text-white/55 text-lg max-w-xl mb-10 leading-relaxed"
         >
-          Most engineers design the automation. I do that, and then I build the tool that
-          designs it faster — a pre-sales engine, a live dashboard, a digital twin —
-          so the next AGV/AMR deployment ships in <span className="text-white">days, not weeks.</span>
+          As a project engineer, my job is to deliver what a project needs — whatever skill
+          that takes. I pick it up fast, ship the result, and where I spot a gap nobody's
+          covering, I build the tool or process that <span className="text-white">closes it for good.</span>
         </motion.p>
 
         <motion.div
