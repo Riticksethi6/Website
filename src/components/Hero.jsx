@@ -69,7 +69,7 @@ export default function Hero() {
           transition={{ duration: 0.7, delay: 0.1 }}
           className="heading-editorial heading-editorial-dark text-white text-5xl md:text-7xl mb-2"
         >
-          I build the tools
+          I design the systems.
         </motion.h1>
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
@@ -77,7 +77,7 @@ export default function Hero() {
           transition={{ duration: 0.7, delay: 0.18 }}
           className="heading-editorial heading-editorial-dark text-5xl md:text-7xl mb-8"
         >
-          <em>that build the robots.</em>
+          <em>then build what ships them.</em>
         </motion.h1>
 
         <motion.p
