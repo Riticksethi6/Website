@@ -13,12 +13,12 @@ export default function TrustedBy() {
         >
           <p className="section-label section-label-light mb-6">/ Where I've Built</p>
           <h2 className="heading-editorial text-4xl md:text-5xl text-neutral-900 mb-6">
-            Research labs, an OEM, <em>and the warehouse floor.</em>
+            Research labs, an OEM, <em>and live deployments.</em>
           </h2>
           <p className="text-neutral-500 leading-relaxed mb-8">
             Three years, six organisations, one recurring assignment: take something that
-            only exists on paper — a sensor model, a CI/CD pipeline, a fleet of robots — and
-            make it run.
+            only exists on paper — a sensor model, a CI/CD pipeline, an automation project —
+            and make it work in production.
           </p>
           <div className="flex gap-10 border-t border-line pt-6">
             <div>

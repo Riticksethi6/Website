@@ -13,20 +13,20 @@ export default function GroundTruth() {
         >
           <p className="section-label section-label-light mb-6">/ First Principles</p>
           <h2 className="heading-editorial text-4xl md:text-5xl text-neutral-900 mb-6">
-            Designed on paper. <em>Proven on the floor.</em>
+            Designed on paper. <em>Proven in the field.</em>
           </h2>
           <div className="space-y-4 text-neutral-500 leading-relaxed">
             <p>
-              Real systems don't behave like the diagram. Sensors drift, grids fluctuate,
-              fleets need to talk to software they were never designed for, and every
-              deployment carries constraints no textbook accounts for.
+              Real systems don't behave like the diagram. Sensors drift, requirements shift
+              mid-project, subsystems need to talk to software they were never designed for,
+              and every deployment carries constraints no textbook accounts for.
             </p>
             <p>
               I built my foundation in theory — sensor fusion, embedded systems, and system
               integration at Master's level — then spent three years testing it against
-              reality: in research labs, inside an automotive OEM, on a Vehicle-to-Grid energy
-              model, and now on live AGV/AMR deployments. Same lesson every time: design is
-              the easy 10%.
+              reality: in research labs, inside an automotive OEM, on an energy-grid
+              simulation, and now scoping and delivering industrial automation projects end
+              to end. Same lesson every time: design is the easy 10%.
             </p>
           </div>
           <div className="flex items-center gap-4 mt-8">
