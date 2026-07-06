@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import profilePhoto from '../assets/profile-photo.jpeg'
 
 function GridBackdrop() {
   return (
@@ -42,8 +43,13 @@ export default function Hero() {
           initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="mb-8"
+          className="flex flex-wrap items-center gap-4 mb-8"
         >
+          <img
+            src={profilePhoto}
+            alt="Ritick Sethi"
+            className="w-12 h-12 rounded-xl object-cover border border-white/15 flex-shrink-0"
+          />
           <a
             href="#timeline"
             className="inline-flex items-center gap-3 bg-white/5 border border-white/15 rounded-full pl-1.5 pr-4 py-1.5 text-sm text-white/80 hover:border-white/30 transition-colors"
