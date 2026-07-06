@@ -16,9 +16,9 @@ export default function TrustedBy() {
             Research labs, an OEM, <em>and live deployments.</em>
           </h2>
           <p className="text-neutral-500 leading-relaxed mb-8">
-            Three years, six organisations, one recurring assignment: take something that
-            only exists on paper — a sensor model, a CI/CD pipeline, an automation project —
-            and make it work in production.
+            Six organisations, one recurring assignment: take something that only exists on
+            paper — a sensor model, a CI/CD pipeline, an automation project — and make it
+            work in production.
           </p>
           <div className="flex gap-10 border-t border-line pt-6">
             <div>

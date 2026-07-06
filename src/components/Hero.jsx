@@ -92,9 +92,10 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.28 }}
           className="text-white/55 text-lg max-w-xl mb-10 leading-relaxed"
         >
-          As a project engineer, my job is to deliver what a project needs — whatever skill
-          that takes. I pick it up fast, ship the result, and where I spot a gap nobody's
-          covering, I build the tool or process that <span className="text-white">closes it for good.</span>
+          When EP Equipment's automation team had no structured way to scope AGV solutions,
+          I built one. When customer sites lacked visibility into operations, I deployed a
+          live dashboard. When BMW's deployment process ate engineering hours, I automated
+          it. I don't just deliver what's scoped — <span className="text-white">I build what the team can reuse.</span>
         </motion.p>
 
         <motion.div
