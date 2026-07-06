@@ -7,7 +7,7 @@ const showcase = [
     tag: 'Python · Streamlit',
     live: true,
     description:
-      'The tool I built to fix EP Equipment\'s scoping bottleneck — customer requirements go in, structured AGV/AMR sizing, material flow design, and quotations come out. Multilingual, in daily use, already behind many live customer proposals.',
+      'The tool I built to eliminate the AGV scoping bottleneck — customer requirements go in; structured sizing, material flow design, and quotations come out. Multilingual, validated in real pre-sales workflows. This demo runs on generic product data.',
     primary: { label: 'Open Live Demo', href: 'https://presales-tool.streamlit.app' },
     secondary: { label: 'View Source', href: 'https://github.com/Riticksethi6/warehouse-automation-presales-tool' },
   },

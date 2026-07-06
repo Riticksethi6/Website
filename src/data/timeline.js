@@ -13,6 +13,8 @@ export const timelineData = [
     summary: 'Designed AGV solutions and built internal tooling that changed how the team operates.',
     highlights: [
       'Pre-sales solution design for AGV/AMR automation projects across European customers',
+      'Owned project planning post-order — timelines, procurement coordination, weekly meetings with customers and integrators, and on-site commissioning',
+      'Aligned AGV routing strategies and fleet behavior with the Fleet Management team; defined WMS requirements and operational strategies with the WMS team per customer use case',
       'Built internal pre-sales tool (Python + Streamlit) → 40% reduction in proposal turnaround time',
       'Designed and deployed live operational dashboards at multiple customer sites',
       'CE compliance documentation, layout specifications, and implementation manuals',
@@ -44,7 +46,7 @@ export const timelineData = [
     type: 'work',
     color: '#3b82f6',
     icon: '⚙️',
-    summary: 'Automated the boring parts so engineers could focus on the interesting ones.',
+    summary: 'Automated recurring deployment and monitoring tasks — 8 hrs/week returned to the team.',
     highlights: [
       'CI/CD pipeline automation → 8 hrs/week saved across the engineering team',
       'Python tooling and infrastructure automation for deployment workflows',
@@ -118,7 +120,7 @@ export const timelineData = [
   {
     id: 8,
     role: 'B.Tech – Electronics & Communication Engineering',
-    company: 'University (India)',
+    company: 'Manav Rachna',
     location: 'India',
     period: 'Pre-2023',
     type: 'education',

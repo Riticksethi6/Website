@@ -121,7 +121,7 @@ export default function Hero() {
             { value: '40%', label: 'Faster proposals' },
             { value: '8h/wk', label: 'DevOps time saved' },
             { value: '1.1', label: 'Thesis grade' },
-            { value: '5', label: 'Projects shipped' },
+            { value: '5', label: 'Projects delivered' },
           ].map(stat => (
             <div key={stat.label}>
               <div className="text-2xl font-medium text-white">{stat.value}</div>

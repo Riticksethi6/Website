@@ -9,7 +9,7 @@ export const skillsData = [
     domain: 'Engineering & Delivery',
     icon: '🚀',
     color: '#f59e0b',
-    skills: ['Solution & Project Engineering', 'Customer Requirement Analysis', 'System Architecture', 'On-site Commissioning', 'Stakeholder Management'],
+    skills: ['Solution & Project Engineering', 'Customer Requirement Analysis', 'System Architecture', 'On-site Commissioning', 'Stakeholder Management', 'Project Planning & Execution', 'Supplier & Integrator Coordination'],
   },
   {
     domain: 'Programming',
@@ -45,6 +45,6 @@ export const skillsData = [
     domain: 'Languages',
     icon: '🌍',
     color: '#06b6d4',
-    skills: ['English (C1 Fluent)', 'German (B1)', 'Hindi (Native)'],
+    skills: ['English (C1 Fluent)', 'German (B1 · B2 in progress)', 'Hindi (Native)'],
   },
 ]

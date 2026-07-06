@@ -7,7 +7,7 @@ export const recommendationsData = [
     color: "#00d4ff",
   },
   {
-    quote: "I had the pleasure of working with Ritick during the implementation of the EP Equipment XPL project. He was consistently professional, supportive, and easy to work with — clear instructions, effective communication, everything organized and on track. His friendly, approachable attitude made collaboration smooth and enjoyable. I'd gladly recommend him to anyone looking for a reliable, knowledgeable project partner.",
+    quote: "I had the pleasure of working with Ritick during the implementation of an AGV automation project. He was consistently professional, supportive, and easy to work with — clear instructions, effective communication, everything organized and on track. His friendly, approachable attitude made collaboration smooth and enjoyable. I'd gladly recommend him to anyone looking for a reliable, knowledgeable project partner.",
     name: "Filip Szabo",
     role: "Full-Stack Web & App Developer — client",
     initials: "FS",
