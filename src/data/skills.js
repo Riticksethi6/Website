@@ -15,13 +15,13 @@ export const skillsData = [
     domain: 'Programming',
     icon: '💻',
     color: '#7c3aed',
-    skills: ['Python', 'FastAPI', 'REST APIs', 'JavaScript / React', 'HTML / CSS', 'SQL (Basic)', 'C (Basic)'],
+    skills: ['Python', 'FastAPI', 'REST APIs', 'JavaScript', 'HTML / CSS', 'Vue.js', 'React', 'SQL (Basic)', 'C (Basic)'],
   },
   {
     domain: 'Tools & Frameworks',
     icon: '🛠️',
     color: '#3b82f6',
-    skills: ['Git', 'Postman', 'Jira', 'Confluence', 'Agile / Scrum', 'Streamlit', 'Docker (Basic)'],
+    skills: ['Git', 'Postman', 'Jira', 'Confluence', 'Agile / Scrum', 'Vue.js', 'Streamlit', 'Docker (Basic)'],
   },
   {
     domain: 'Robotics & Simulation',

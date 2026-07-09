@@ -8,7 +8,7 @@ export const projectsData = [
     icon: '🛠️',
     problem: 'AGV/AMR scoping typically requires 3–4 manual meetings and hours of spreadsheet work before a proposal can be written — engineering has to sit in every sales conversation.',
     built: 'Self-initiated Python/Streamlit tool that auto-translates customer requirements into AGV/AMR sizing recommendations, material flow design, efficiency calculations, and structured quotations. Multilingual (8 languages), live validation engine, guided mode for non-technical users, Word report generation. This public version runs on generic product data.',
-    outcome: 'Cut proposal preparation time by roughly 40% in internal use. Adopted by the team as part of the scoping workflow.',
+    outcome: 'Cut proposal preparation time by ~40% in internal use. Self-initiated and adopted by the team as part of the standard scoping workflow. Now in daily use across all active projects.',
     link: 'https://presales-tool.streamlit.app',
     linkLabel: 'Open Live Demo →',
     github: 'https://github.com/Riticksethi6/warehouse-automation-presales-tool',

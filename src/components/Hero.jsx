@@ -93,9 +93,11 @@ export default function Hero() {
           className="text-white/55 text-lg max-w-xl mb-10 leading-relaxed"
         >
           When EP Equipment's automation team had no structured way to scope AGV solutions,
-          I built one. When customer sites lacked visibility into operations, I deployed a
-          live dashboard. When BMW's deployment process ate engineering hours, I automated
-          it. I don't just deliver what's scoped — <span className="text-white">I build what the team can reuse.</span>
+          I built one — and it's now in daily use. When customer sites lacked visibility into
+          operations, I deployed a live dashboard. When BMW's deployment process ate
+          engineering hours, I automated it. In 8 months I won 3 key accounts, delivered 3
+          remote commissioning deployments, and am running 3+ projects simultaneously. I
+          don't just deliver what's scoped — <span className="text-white">I build what the team can reuse.</span>
         </motion.p>
 
         <motion.div
@@ -121,7 +123,9 @@ export default function Hero() {
             { value: '40%', label: 'Faster proposals' },
             { value: '8h/wk', label: 'DevOps time saved' },
             { value: '1.1', label: 'Thesis grade' },
-            { value: '5', label: 'Projects delivered' },
+            { value: '3+', label: 'Projects delivered' },
+            { value: '3', label: 'Key accounts won' },
+            { value: '3', label: 'Remote deployments' },
           ].map(stat => (
             <div key={stat.label}>
               <div className="text-2xl font-medium text-white">{stat.value}</div>
