@@ -95,7 +95,7 @@ export default function Hero() {
           When EP Equipment's automation team had no structured way to scope AGV solutions,
           I built one. When customer sites lacked visibility into operations, I deployed a
           live dashboard. When BMW's deployment process ate engineering hours, I automated
-          it. I don't just deliver what's scoped — <span className="text-white">I build what the team can reuse.</span>
+          it. I don't just deliver what's scoped — <span className="text-white">I notice what's missing and fix it.</span>
         </motion.p>
 
         <motion.div
